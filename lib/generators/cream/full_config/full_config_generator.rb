@@ -4,7 +4,7 @@ require 'cream'
 require 'rails3_artifactor'
 require 'active_support'
 require 'generators/cream/helpers/all'
-
+require 'logging_assist'
 module Cream
   module Generators
     class FullConfigGenerator < ::Rails::Generators::Base
