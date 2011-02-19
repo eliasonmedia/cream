@@ -14,9 +14,17 @@ module Cream
       end
 
       def valid_strategies
+<<<<<<< HEAD
         @strategies ||= basic_strategies
         @strategies |= document_store_strategies if document_store?
         @strategies
+=======
+        @strategies ||= begin
+          s = basic_strategies          
+          s |= document_store_strategies if document_store?
+          s.flatten
+        end
+>>>>>>> 99cb2d49da7da3917369213365973fdfdded7b0e
       end
 
       def role_ref_strategy?
