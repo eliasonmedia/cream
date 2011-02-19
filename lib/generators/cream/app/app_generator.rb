@@ -31,7 +31,7 @@ module Cream
       protected
 
       include Cream::GeneratorHelper
-      #include Rails3::Assist::BasicLogger
+      include Rails3::Assist::BasicLogger
       extend Rails3::Assist::UseMacro
       use_helpers :app, :special, :file, :view, :model
 

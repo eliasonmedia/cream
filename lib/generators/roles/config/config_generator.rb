@@ -40,7 +40,7 @@ module Roles
 
       protected
 
-      #include Rails3::Assist::BasicLogger
+      include Rails3::Assist::BasicLogger
       extend Rails3::Assist::UseMacro
 
       include Cream::GeneratorHelper
