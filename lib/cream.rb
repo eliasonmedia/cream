@@ -15,6 +15,8 @@ require 'sugar-high/array'
 
 require 'cream/role'    
 
+require 'logging_assist'
+
 require_all File.dirname(__FILE__) + '/cream/controller'
 require_all File.dirname(__FILE__) + '/cream/helper'
 require_all File.dirname(__FILE__) + '/cream/view'
